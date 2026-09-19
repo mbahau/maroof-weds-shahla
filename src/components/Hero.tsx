@@ -21,7 +21,7 @@ export function Hero() {
       <h1 id="hero-title">{weddingData.couple.groom} <em>weds</em> {weddingData.couple.bride}</h1>
     </motion.div>
     <motion.div className="portal-glow" style={reduce ? { opacity: 0 } : { opacity: glowOpacity }} />
-    <motion.div className="palace-stage" style={reduce ? undefined : { scale, opacity: visualOpacity }} aria-hidden="true">
+    <motion.div className="palace-stage" style={reduce ? undefined : { x: '-50%', scale, opacity: visualOpacity }} aria-hidden="true">
       {reduce ? <img src="/mughal-palace.png" alt="" /> : <>
         <motion.img className="palace-half palace-left" src="/mughal-palace.png" alt="" style={{ x: leftX }} />
         <motion.img className="palace-half palace-right" src="/mughal-palace.png" alt="" style={{ x: rightX }} />

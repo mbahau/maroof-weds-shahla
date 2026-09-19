@@ -1027,8 +1027,6 @@ h3 {
   height: auto;
   aspect-ratio: 1.82/1;
   width: 145vw;
-  transform: none;
-  translate: -50% 0;
 }
 .palace-stage > img.palace-half {
   position: absolute;
