@@ -8,10 +8,10 @@ export function Invitation() {
       <p className="arabic">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
       <p className="blessing">In the name of Allah, the Most Gracious, the Most Merciful</p>
       <div className="mini-palace"><img src="/mughal-palace.png" alt="Ornate Mughal palace illustration" loading="lazy" /></div>
-      <p className="family">Together with their families</p>
-      <p className="invite-word">invite</p>
+      <p className="family">{weddingData.invitation.familyNames}</p>
+      <p className="invite-word">invites</p>
       <h2>{weddingData.couple.groom} <span>&</span> {weddingData.couple.bride}</h2>
-      <p className="invitation-copy">to share in the joy of their wedding celebrations</p>
+      <p className="invitation-copy">to share in the joy of the wedding celebrations</p>
     </motion.div>
   </section>
 }

@@ -8,7 +8,7 @@ export function DateReveal() {
     <div className="date-card">
       <p className="eyebrow">Save our date</p>
       <h2>Something beautiful awaits</h2>
-      <button className={`seal ${revealed ? 'opened' : ''}`} onClick={() => setRevealed(true)} aria-expanded={revealed} aria-controls="revealed-date"><span>MS</span></button>
+      <button className={`seal ${revealed ? 'opened' : ''}`} onClick={() => setRevealed(true)} aria-expanded={revealed} aria-controls="revealed-date"><span>AN</span></button>
       <div id="revealed-date" className={`revealed-date ${revealed ? 'is-visible' : ''}`} aria-live="polite">
         <p>{weddingData.invitation.weekday}</p><strong>{weddingData.invitation.day}</strong><p>{weddingData.invitation.monthYear}</p>
       </div>

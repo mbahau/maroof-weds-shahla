@@ -1,4 +1,4 @@
-# Maroof weds Shahla
+# Ahsaan weds Nargis
 
 A mobile-first wedding invitation website built with React, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide React.
 
